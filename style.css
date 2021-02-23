@@ -2,12 +2,30 @@
 }
 main{ 
 }
-.nav-list{
-    display: flex;
-    
+li{
+    display: inline;
 }
-.nav-links{
+.nav-list{
+    background-color: crimson;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.nav-links{ 
+    padding: 5px 10px 0px 10px;
+    
+
+}
+#left-links{
+    display: flex;
+    justify-content: flex-start;
+}
+#right-links{
+    display: flex;
+    justify-content: flex-end;
 }
 #logo-container{
     background-color: blue;
@@ -15,6 +33,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 275px;
+
 }
 #search-container{
     background-color: chartreuse;
@@ -22,6 +41,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 #nav-bar{
 
