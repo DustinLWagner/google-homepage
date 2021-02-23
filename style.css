@@ -1,11 +1,14 @@
 *{
- 
 }
-
-main{
+main{ 
+}
+.nav-list{
+    display: flex;
     
 }
-
+.nav-links{
+    list-style-type: none;
+}
 #logo-container{
     background-color: blue;
     display: flex;
@@ -13,12 +16,13 @@ main{
     align-items: center;
     margin-top: 275px;
 }
-
 #search-container{
     background-color: chartreuse;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#nav-bar{
 
 }
