@@ -2,37 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta>
     <title> Google </title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
     <main>
-        <nav id="nav-bar">
-            <div>
-                <ul class="nav-list">
-                    <div id="left-links">
-                        <li class="nav-links">About</li>
-                        <li class="nav-links">Store</li>
-                    </div>
-                    <div id="right-links"> 
-                        <li class="nav-links">Gmail</li>
-                        <li class="nav-links">Images</li>   
-                        <li class="nav-links"><img src="#"></li>
-                        <li class="nav-links"><img src="#""></li>
-                    </div>    
-                </ul>
+        <nav>
+            <div id="navbar">
+
+                <div id="left-links">
+                    <a href="#">About</a>
+                    <a href="#">Store</a>
+                </div>
+                <div id="right-links">
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <a href="#"><img src="/img/apps-24px.svg"></a>
+                    <a href="#"><img id="profimg" src="/img/profimg.png"></a>  
+                </div>
             </div>
         </nav>
-        
         <div>
             <div id=logo-container>
                     <img id="logo" src="/img/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
             <div id="search-container" >
-                    <input type="search">
+                    <input size=50px height=10px id="searchbar" type="search">
             </div>
         </div>       
     </main>
