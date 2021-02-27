@@ -19,7 +19,6 @@ footer{
     position: absolute;
     bottom: 0 ;
     width: 90%;
-    
 }
 footer a{
     color: rgb(128, 128, 128);
@@ -28,6 +27,20 @@ footer a{
     margin: 0px 5px 0px 15px;
     font-family: Arial, sans-serif;
     font-size: 14px
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#left-links{
+    display: flex;
+}
+#right-links{
+    display: flex;
+}
+#profimg{
+    border-radius: 25px;
 }
 #logo-container{
     display: flex;
@@ -51,29 +64,25 @@ footer a{
     width: 480px;
     border-radius: 25px;
     padding-left: 40px;
-    padding-right: 40px;    
+    padding-right: 40px;
 }
-#profimg{
-    border-radius: 25px;
+#submitMain{
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
 }
-#navbar{
-    display: flex;
-    justify-content: space-between;
+.submit button{
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    color:rgb(128, 128, 128);
 }
-#left-links{
-    display: flex;
-}
-#right-links{
-    display: flex;
-}
-
-
-
 #footer{
     display: flex;
     padding: 10px;
-
 }
 #footer-left{
     display: flex;
