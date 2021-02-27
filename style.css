@@ -2,7 +2,7 @@
 }
 main{ 
 }
-a{
+nav a{
     text-decoration: none;
     padding: 5px;
     margin: 0px 5px 0px 15px;
@@ -12,7 +12,22 @@ a{
 }
 input{
     background:url(/img/google-search.png) 8px no-repeat, url(/img/google-microphone.png) 520px no-repeat;
-
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0 ;
+    width: 90%;
+    
+}
+footer a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px 0px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px
 }
 #logo-container{
     display: flex;
@@ -27,6 +42,10 @@ input{
     justify-content: center;
     align-items: center;
 }
+#search-container img{
+    position: absolute;
+    right: 140px;
+}
 #searchform{
     height: 40px;
     width: 480px;
@@ -34,22 +53,33 @@ input{
     padding-left: 40px;
     padding-right: 40px;    
 }
+#profimg{
+    border-radius: 25px;
+}
 #navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-#profimg{
-    border-radius: 25px;
-}
 #left-links{
     display: flex;
-    text-decoration: none;
 }
 #right-links{
     display: flex;
 }
-#search-container img{
-    position: absolute;
-    right: 140px;
+
+
+
+#footer{
+    display: flex;
+    padding: 10px;
+
+}
+#footer-left{
+    display: flex;
+    padding-right: 50px;
+}
+#footer-right{
+    display: flex;
+    padding-left: 50px;
 }
