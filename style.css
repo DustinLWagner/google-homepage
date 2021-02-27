@@ -11,7 +11,7 @@ nav a{
     font-size: 14px;
 }
 input{
-    background:url(/img/google-search.png) 8px no-repeat, url(/img/google-microphone.png) 520px no-repeat;
+    background:url(img/google-search.png) 8px no-repeat, url(img/google-microphone.png) 520px no-repeat;
 }
 footer{
     display: flex;
